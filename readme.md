@@ -6,7 +6,7 @@ This repository contains my code, exercises, and notes while deepening my knowle
 - Prior experience with React
 - Comfortable with JavaScript (ES6+)
 
-## 🚀 What I'll Learn
+## 🚀 What I'm working with
 - Core React concepts (components, JSX, props, state)
 - Hooks (useState, useEffect, and beyond)
 - Component architecture and reusability
