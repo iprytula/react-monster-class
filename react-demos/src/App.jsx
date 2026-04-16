@@ -5,21 +5,23 @@ import IconComponent from "./components/IconComponent";
 import JSExpressions from "./components/JSExpressions";
 import MainContent from "./components/mainContent";
 import ProductInfo from "./components/ProductInfo";
+import Profile from "./components/Profile";
 import ProfileCard from "./components/ProfileCard";
+import ShoppingList from "./components/ShoppingList";
 import StyledCard from "./components/StyledCard";
 import UserList from "./components/UserList";
 
 const App = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       {/* <MainContent />
       <JSExpressions />
       <Form /> */}
       {/* <ProductInfo />
       <UserList />
       <Footer /> */}
-      <StyledCard>
+      {/* <StyledCard>
         <h2>Styled Card</h2>
         <p>This is a card with custom styles applied.</p>
       </StyledCard>
@@ -27,7 +29,9 @@ const App = () => {
         <h2>Profile Card</h2>
         <p>This is a profile card with custom styles applied.</p>
       </ProfileCard>
-      <IconComponent />
+      <IconComponent /> */}
+      <Profile />
+      <ShoppingList />
     </>
   )
 };
