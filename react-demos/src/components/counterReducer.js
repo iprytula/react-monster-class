@@ -1,16 +1,14 @@
-import { counterActions } from "./counterActions";
-
 export const counterReducer = (state, action) => {
   switch (action.type) {
-    case counterActions.increment().type:
+    case "increment":
       return state + 1;
-    case counterActions.decrement().type:
+    case "decrement":
       return state - 1;
-    case counterActions.reset().type:
+    case "reset":
       return 0;
-    case counterActions.incrementByAmount().type:
+    case "incrementByAmount":
       return state + action.payload;
-    case counterActions.decrementByAmount().type:
+    case "decrementByAmount":
       return state - action.payload;
     default:
       throw new Error("Unknown action type");
