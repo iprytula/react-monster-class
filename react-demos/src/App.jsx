@@ -9,10 +9,10 @@ import UserProfile from "./components/UserProfile";
 const App = () => {
   return (
     <>
-      {/* <UserProvider>
+      <UserProvider>
         <UserProfile />
         <UpdateUser />
-      </UserProvider> */}
+      </UserProvider>
       <Counter />
     </>
   )
