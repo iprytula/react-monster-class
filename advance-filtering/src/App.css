@@ -125,3 +125,11 @@ aside.sidebar input[type="radio"]:checked~.radio-label.color-label::after {
   background-color: #333;
   color: #fff;
 }
+
+.search-input {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
