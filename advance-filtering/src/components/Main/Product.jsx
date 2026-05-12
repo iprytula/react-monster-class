@@ -33,15 +33,15 @@ const Product = ({
     <div className="product">
       <img src={img} alt={title} className="product-image" />
       <h3 className="product-title">{title}</h3>
+      <div className="product-rating">Rating: {stars}</div>
       <div className="product-reviews">{reviews}</div>
+      <div className="product-company">Company: {company}</div>
+      <div className="product-color">Color: {color}</div>
+      <div className="product-category">Category: {category}</div>
       <div className="product-prices">
         <div className="prev-price">Old price: {prevPrice}$</div>
         <div className="new-price"><strong>New price: {newPrice}$</strong></div>
       </div>
-      <div className="product-company">Company: {company}</div>
-      <div className="product-color">Color: {color}</div>
-      <div className="product-category">Category: {category}</div>
-      <div className="product-rating">Rating: {stars}</div>
     </div>
   );
 };
