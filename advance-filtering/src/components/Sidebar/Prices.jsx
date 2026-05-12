@@ -1,17 +1,25 @@
 import Radio from "../inputs/Radio";
 
-const Prices = (onChangeHandler) => {
+const Prices = ({ onChangeHandler }) => {
   return (
     <section className="sidebar-section">
-      <h2>Categories</h2>
+      <h2>Prices</h2>
       <ul>
+        <li>
+          <Radio
+            name="price"
+            value="all"
+            label="All"
+            onChange={onChangeHandler}
+            checked={true}
+          />
+        </li>
         <li>
           <Radio
             name="price"
             value="0-50"
             label="$0-50"
             onChange={onChangeHandler}
-            checked={true}
           />
         </li>
         <li>

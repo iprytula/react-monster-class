@@ -256,7 +256,7 @@ const data = [
     company: "Nike",
     color: "red",
     category: "sneakers",
-    rating: 5.5,
+    rating: 5,
   },
 
   {
