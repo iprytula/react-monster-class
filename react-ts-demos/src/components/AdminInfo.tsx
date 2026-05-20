@@ -1,4 +1,4 @@
-import type { AdminInfo } from "./types";
+import type { AdminInfo } from "../interfaces";
 
 const AdminInfo = ({ id, name, email, role }: AdminInfo) => {
   return <div className="user-card user-card-admin">

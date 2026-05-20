@@ -1,4 +1,4 @@
-import type { Info } from "./types";
+import type { Info } from "../interfaces";
 
 const UserInfo = ({ id, name, email }: Info) => {
   return (
