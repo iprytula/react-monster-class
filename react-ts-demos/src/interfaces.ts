@@ -29,3 +29,11 @@ export interface ContactForm {
   message: string;
   phone?: string;
 }
+
+export interface CounterAction {
+  type: "INCREMENT" | "DECREMENT";
+}
+
+export interface CounterState {
+  count: number;
+}
