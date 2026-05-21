@@ -21,3 +21,11 @@ export interface Todo {
   title: string;
   completed: boolean;
 }
+
+export interface ContactForm {
+  name: string;
+  email: string;
+  subject?: string;
+  message: string;
+  phone?: string;
+}

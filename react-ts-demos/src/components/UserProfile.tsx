@@ -10,17 +10,17 @@ const UserProfile = () => {
     role: 'User'
   });
 
-  const nameInput = useRef<HTMLInputElement | null>(null);
-  const emailInput = useRef<HTMLInputElement | null>(null);
-  const roleInput = useRef<HTMLInputElement | null>(null);
+  const nameInput = useRef<HTMLInputElement>(null);
+  const emailInput = useRef<HTMLInputElement>(null);
+  const roleInput = useRef<HTMLInputElement>(null);
 
   const handleSubmit: SubmitEventHandler<HTMLFormElement> = (e) => {
     e.preventDefault();
 
     const formData = {
-      name: nameInput.current!.value,
-      email: emailInput.current!.value,
-      role: roleInput.current!.value
+      name: nameInput.current?.value || '' ,
+      email: emailInput.current?.value || '' ,
+      role: roleInput.current?.value || '' 
     }
     const randomId = Math.floor(Math.random() * 1000);
 

@@ -1,13 +1,11 @@
 import "./App.css";
-import TodoList from "./components/TodoList";
-import UserProfile from "./components/UserProfile";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
     <>
       <h1>React TypeScript Demos</h1>
-      <UserProfile />
-      <TodoList />
+      <ContactForm />
     </>
   );
 }
