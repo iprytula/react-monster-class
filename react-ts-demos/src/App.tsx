@@ -1,11 +1,10 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import UserList from "./components/UserList";
 
 function App() {
   return (
     <>
-      <h1>React TypeScript Demos</h1>
-      <Counter />
+      <UserList />
     </>
   );
 }
