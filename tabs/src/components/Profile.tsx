@@ -24,7 +24,7 @@ const Profile = () => {
   };
 
   return (
-    <div className="relative w-[94%] ml-20">
+    <div className="relative w-[97vw] ml-20">
       <div className="relative">
         <img
           src={bannerUrl}
